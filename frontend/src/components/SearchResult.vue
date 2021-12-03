@@ -1,5 +1,5 @@
 <template>
-    <a v-bind:href="'/person/'+ id" class="result">
+    <a v-bind:href="'/personne/'+ id" class="result">
         <h3>
           <span v-if="prenom">{{prenom}} </span>
           <span v-if="nom">{{nom}} </span>
