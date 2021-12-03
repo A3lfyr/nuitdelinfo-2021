@@ -1,0 +1,179 @@
+[
+    {
+        "EtatCivil": {
+            "DateNaissance": "1790-05-02T00:00:00.000Z",
+            "DateDeces": "1862-01-01T00:00:00.000Z",
+            "LieuNaissance": "Valenciennes",
+            "LieuDeces": "Dunkerque"
+        },
+        "Genealogie": {
+            "Descendance": [],
+            "Conjoint": "Paul Dominique Joseph Bayart",
+            "LieuMariage": "Lille"
+        },
+        "Decorations": [
+            {
+                "Date": "1834-07-02",
+                "Nom": "Medaille dor"
+            },
+            {
+                "Date": "1837-12-21",
+                "Nom": "Medaille dhonneur"
+            },
+            {
+                "Date": "1855-04-15",
+                "Nom": "Medaille dhonneur"
+            }
+        ],
+        "Sources": [
+            "Etat civil archves departementales du nord, le petit journal du 19 juin 1865, BNF Gallica Societe Centrale de Sauvetage des Naufrages 901-1862"
+        ],
+        "_id": "61a9a796e881902a6a62fac5",
+        "createdAt": "2021-12-03T05:13:58.800Z",
+        "updatedAt": "2021-12-03T05:41:08.186Z",
+        "__v": 0,
+        "Nom": "Barenne",
+        "Nom_lowercase": "barenne",
+        "Prenom": "Amelie",
+        "Prenom_lowercase": "amelie",
+        "Sauveteur": true
+    },
+    {
+        "EtatCivil": {
+            "DateNaissance": "1806-10-05T00:00:00.000Z",
+            "LieuNaissance": "Dunkerque",
+            "DateDeces": "1880-07-09T00:00:00.000Z"
+        },
+        "Genealogie": {
+            "Descendance": []
+        },
+        "Decorations": [
+            {
+                "Date": "1857-04-29",
+                "Nom": "Médaille argent 1e classe"
+            },
+            {
+                "Date": "1817",
+                "Nom": "Médaille d’argent du sauvetage"
+            },
+            {
+                "Date": "1854",
+                "Nom": "Médaille d’argent de la Société Humaine  pour le sauvetage de la FELICITE"
+            },
+            {
+                "Date": "1867-10-21",
+                "Nom": "Chevalier de la Légion d’Honneur – Dossier LH/2751/62"
+            }
+        ],
+        "Sources": [
+            "Base Léonore Dossier de la légion d’honneur Jacky Messiaen « Des Corvettes et des hommes  » Kim  édition BNF Gallica Journal des débats politiques et littéraires"
+        ],
+        "_id": "61a9a79744c49a31f87038e6",
+        "Nom": "WEINS",
+        "Prenom": "PIERRE",
+        "Titre": "Pilote",
+        "Sauveteur": true,
+        "Description": "Peu d’éléments dans les documents compulsés avec certains doutes comme la Médaille d’Argent à 11 ans je pencherai pour une erreur de date. Vous avez des donnés, des documents sur ce sauveteur ? Merci de me contacter",
+        "Nom_lowercase": "weins",
+        "Prenom_lowercase": "pierre",
+        "createdAt": "2021-12-03T05:13:59.276Z",
+        "updatedAt": "2021-12-03T05:13:59.276Z",
+        "__v": 0
+    },
+    {
+        "EtatCivil": {
+            "DateNaissance": "1816-03-12T00:00:00.000Z",
+            "LieuNaissance": "Gravelines",
+            "DateDeces": "1901-04-17T00:00:00.000Z"
+        },
+        "Genealogie": {
+            "Descendance": [
+                "Antoine Joseph Auguste",
+                "Jean Pierre Louis",
+                "Hortense Claire",
+                "Marie Rosalie Emma Ficquet"
+            ],
+            "DateMariage": "1838-08-22T00:00:00.000Z",
+            "Conjoint": "Marie Joséphine BARRA",
+            "LieuMariage": "Gravelines"
+        },
+        "Temoignage": {
+            "Date": "1872-05-29T00:00:00.000Z",
+            "Text": "Discours prononcé lors de la remise de la légion d’honneur au titre de Chevalier Embarqué le 10 avril 1835 sur le JUPITER, il débarquait de ce vaisseau et était congédié le 12 août 1837. Il était alors matelot de 2° classe et avait obtenu le brevet de chef de pièce. Comme matelot, puis comme patron, il reprit immédiatement son métier de pêcheur, jusqu’au jour où il lui fallut rentrer à la division de Cherbourg, le 5 octobre 1840. Embarqué du 12 octobre 1840 au 1er janvier 1843, sur le vaisseau le FRIEDLAND, que commandait alors M. Cosmao-Dumanoir, devenu depuis contre-amiral, il passait encore un mois à bord du vaisseau L’OCEAN, sous les ordres de M. Parseval-Deschène, mort en possession de la dignité d’amiral de France, puis il rentrait définitivement dans ses foyers le 11 février 1843. Mais déjà, ce brave matelot, par un premier sauvetage, avait ouvert la série de ses actes de courage. Pendant le désarmement du FRIEDLAND, un pont volant, qui permettait de communiquer dans le port, du bord au quai, s’était effondré sous le poids de marins qui allaient en corvée ; plus de soixante étaient tombés dans le bassin ; quatre d’entre eux furent retirés sans vie. A lui seul, Ficquet avait sauvé deux de ses camarades. Le 10 juin 1843, il était admis comme matelot sur une des corvettes du pilotage de Dunkerque et, lorsqu’il devint aspirant pilote le 1er mai 1855, ce marin, qui était resté plus de quarante et un mois sur nos bâtiments de guerre, avait déjà prouvé qu’il avait mis à profit les leçons de vaillance et de courage qui lui avaient été données. En 1848, c’est un bateau pêcheur monté par sept personnes que le gros temps avait jeté dans les glaces et qu’il réussit à conduire dans le port. Il faisait partie de l’équipage du bateau de sauvetage qui s’était le 19 octobre 1854 porté au secours du sloop LE FELICITE, échoué à dix heures du matin, à l’est de l’estacade de Dunkerque, en face de l’ancien établissement des bains de mer. Dès que cet événement fut signalé au chef à terre des pilotes, il s’empressa de faire mettre à l’eau, à force de bras, le canot de la Société humaine, dans lequel s’embarquèrent plusieurs pilotes dirigés par M. Conseil, capitaine de port, excellent marin, type du vrai sauveteur, dont je suis heureux d’avoir à évoquer la mémoire dans cette réunion. C’est avec beaucoup de peine que l’embarcation put atteindre le navire et recueillir les hommes qui étaient à bord du sloop ; à chaque instant, le canot de sauvetage était couvert par les lames et, au retour, il manqua de se briser en abordant, l’estacade, contre laquelle il était violemment poussé. Le 26 décembre 1854, le ministre de la marine, M. Théodore Ducos, faisait remettre à Ficquet un témoignage officiel satisfaction pour (je cite le texte même) « A par un mauvais temps et une grosse mer, s’être porté, avec sept autres marins, au secours du navire naufragé la FELICITE et avoir puissamment contribué à sauver l’équipage de ce bâtiment composé de 5 hommes. » La Société humaine de Dunkerque lui décernait, à cette occasion, une première médaille d’argent avec inscription commémorative. Ficquet était passé pilote le 25 novembre 1856 ; depuis cette époque jusqu’au 1er mai 1876, moment où il fut admis à la retraite, il n’a pas cessé, un seul jour, de faire partie de la corporation si remarquable des pilotes de Dunkerque. Pendant cette période de vingt ans, nous allons le trouver toujours prêt à porter secours aux naufragés. Laissez-moi ajouter que ce brave marin, dont l’excellente conduite ne s’est jamais démentie un seul jour, avait inspiré assez de confiance pour être nommé, le 1er février 1869, chef en mer de sa corvette, et qu’à partir de ce moment, les sauvetages accomplis porteront témoignage, non seulement de son dévouement, mais encore de son habileté professionnelle. Le 7 mars 1858, le trois-mâts barque AMIRAL MORSOON, de Hull, parti d’Angleterre pour Constantinople, avec un chargement de charbon, sombre à trois milles au nord du port de Dunkerque, après avoir perdu son gouvernail et s’être fortement avarié sur les bancs du large. Tout l’équipage, composé de quatorze hommes, fut sauvé. Plusieurs pilotes et marins, au nombre desquels nous trouvons Ficquet, se firent remarquer dans cette circonstance. Ils se portèrent, avec empressement, au secours du navire en détresse, quoique l’état de la mer et la force du vent rendissent la sortie fort dangereuse pour le canot de la Société humaine. Le 22 avril 1859, le bateau lamaneur N°12, qui venait d’assister, à sa sortie du port, le navire DUC DE TREVISE coulait sur rade. Son équipage, cramponné au mât, à la voile et aux avirons qui flottaient sur l’eau, était entraîné en dérive. La corvette du pilotage, qui sortait des jetées, voit le péril. Trois pilotes, Ficquet en tête, embarquent immédiatement dans leur canot et réussissent, non sans peine à sauver l’équipage. Le samedi 2 novembre 1867, à neuf heures du matin, le sémaphore de Dunkerque ayant signalé le naufrage, à trois lieues au large, d’un navire dont on n’apercevait plus de terre qu’une partie de la mâture, plusieurs hommes dévoués, pilotes, employés des ponts et chaussées, capitaine et équipage du remorqueur, se présentèrent aussitôt pour tenter, s’il était possible, le sauvetage. Immédiatement, un équipage de neuf hommes fut constitué pour le canot de la Société humaine. Ficquet était désigné comme patron. Le remorqueur poussa ses feux et, dès qu’il eut assez d’eau, il sortit, traînant derrière lui le canot de secours dont il avait pris momentanément l’équipage à bord. Sous l’influence d’un vent violent de Nord-Nord-Est la mer était très mauvaise. A peine en dehors des jetées, le navire enfourna à plusieurs reprises, au point que l’on put craindre d’être obligé de rebrousser chemin. La machine, où l’on excédait d’un huitième la pression réglementaire, parce qu’il fallait, à tout prix, aller de l’avant et avancer rapidement, recevait à chaque minute des torrents d’eau de mer que les pompes ne suffisaient pas à épuiser : le mécanicien, dans l’eau jusqu’à mi-jambe, redoutait une explosion ; on franchit cependant les hauts fonds de l’entrée du port et l’on traversa la rade. En arrivant sur le plateau du Breack-Bank, on se trouva au milieu d’une mer démontée et tellement furieuse, que les lames passaient pardessus la passerelle et que la claire-voie du panneau de l’arrière, qui était saisie en dedans et pesait 400 kilos, fut violemment arrachée. On vit alors, sur la vergue du navire coulé, une petite masse noire qui semblait avoir une forme humaine ; quelques instants après, on vit cette masse se déplacer : on apercevait donc réellement un homme. C’était le premier indice sûr que l’on eût de la présence de naufragés sur la mâture. Cette certitude ranima les courages ; l’on s’obstina à franchir le Break-Bank, et l’on y parvint. En approchant, l’on se rendit de mieux en mieux compte delà situation. Le navire était coulé sur le récif de l’In-Ruytingen, à dix milles dans le Nord-Nord-Ouest du port : un seul de ses mâts, qui était un grand mât de brick, était encore debout ; la mer arrivait presque jusqu’à la hune, qui était protégée, du côté du nord, par le hunier encore largue. Sur cette hune et derrière la voile que le vent et la mer du large collaient contre le mât, se tenaient blottis quatre hommes presque nus, dont le sauvetage devait être évidemment très difficile, car la mer était fort dure sur le récif et les naufragés semblaient peu capables de seconder les efforts des sauveteurs. Quoi qu’il en soit le capitaine Breynaert, dont je tiens à citer le nom dans cette enceinte, n’hésite pas à stopper à l’Ouest et un peu au vent de la mâture ; le canot de sauvetage que dirige Ficquet est accosté sous le vent et les neuf pilotes et matelots y embarquent en saisissant le moment des embellies. Il s’approche de la hune ; une forte ligne est lancée aux naufragés qui l’amarrent au-dessus d’eux dans les haubans. Le va-et-vient établi, un des naufragés se jette à la mer et se laisse glisser le long de la ligne ;le canot approche en même temps et le recueille. Quelques minutes après, on profite d’une nouvelle embellie pour recueillir un autre homme, et ainsi de suite jusqu’à ce que tous soient dans l’embarcation de la Société humaine. Il était temps. Au moment où le dernier homme embarquait, une lame énorme vint couvrir la mâture et obliger les canotiers à lâcher le va-et vient ; si quelqu’un s’était encore à ce moment, trouvé dans la hune, il est bien douteux qu’il eût réussi à s’y tenir. La mer montait, d’ailleurs, et un quart d’heure plus tard, elle devait entièrement couvrir l’épave. Tout n’était pas fini ; l’équipage du canot sauveteur et les passagers avaient à monter à bord du remorqueur. Cette opération fut longue et difficile ; peu s’en fallut que l’embarcation ne fût chavirée sous le flanc du vapeur.Tout s’acheva cependant heureusement, grâce aux efforts persévérants de chacun, principalement de Ficquet et du capitaine Breynaert, et bientôt on se remettait en route pour le port, non sans danger de perdre en chemin le canot de sauvetage, dont, les remorques cassèrent deux fois. Le navire naufragé était le brick anglais SPRING. Le second avait été tué par la chute du mât de misaine. Les cinq hommes formant le reste de l’équipage, venaient d’être sauvés, grâce au dévouement des marins conduits par Ficquet, qui, clans cette journée, fut, ainsi que le capitaine Breynaert, remarquable autant par son sang-froid que par son habileté de manœuvre. Laissez-moi ajouter que, dans le canot dont Ficquet avait le commandement, se trouvaient aussi d’autres membres de notre Société dont je tiens à vous dire les noms : Delugny, aujourd’hui chevalier de la Légion d’honneur, Everaert, Gossin et Boone. Le 4 janvier 1868, M. l’amiral Rigault de Genouilly, voulant donner à Ficquet une récompense proportionnée aux sauvetages auxquels il avait coopéré les 7 mars 1858, 22 avril 1859 et 2 novembre 1867, lui faisait franchir les degrés intermédiaires et lui accordait immédiatement une médaille d’honneur de 2° classe en or. Sa belle conduite, à l’occasion du naufrage du SPRING était récompensée encore par une médaille d’argent que lui faisait remettre le gouvernement de Sa Majesté Britannique ; et, pour le même fait, dans sa séance du 25 novembre 1867, la Société centrale de Sauvetage des naufragés lui décernait une médaille de bronze. Il obtenait encore de la Société humaine, à Dunkerque, une médaille d’honneur en argent, avec inscription commémorative. Le 30 janvier 1868, un lougre de pêche touche pendant la nuit sur l’un des bancs de la rade et s’y défonce, L’équipage, réfugié dans un des canots du bord, fait de vains efforts pour regagner la terre. Heureusement que la corvette des pilotes, commandée par Ficquet, avait aperçu les naufragés ; elle se porte au-devant d’eux et réussit à les sauver tous, au nombre de huit. Le 12 septembre 1869, une scène émouvante se passait encore en rade de Dunkerque, sous les yeux de nombreux spectateurs accourus à la nouvelle que le trois-mâts anglais PRIDE OF THE GANGE, mouillé dans l’ouest du port, venait, dans une tourmente, de casser ses chaînes et de s’échouer sur un des bancs du large L’équipage affolé s’était jeté dans la chaloupe du bord ; mais en présence d’une mer furieuse et d’une rare violence, la perte de tous ces hommes était imminente, si un secours immédiat ne leur était porté. Ces malheureux avaient été aperçus par les corvettes du pilotage mouillées sur rade, le PILOTEN°1 et JOSEPHINE. Toutes deux filèrent leurs chaînes à la mer et faisaient toute la toile possible pour louvoyer dans une mer démontée qui les submergeait complètement, semblant vouloir les engloutir et s’opposer au sauvetage. Le PILOTE N°1 malgré l’énergie déployée, est paralysé par un coup de mer au moment où il vire de bord et est entraîné en dérive. Le bateau JOSEPHINE, commandé par notre brave Ficquet, était plus heureux et parvenait à accoster le PRIDE OF YHE GANGE ; nos pilotes, parmi lesquels je rencontre encore plusieurs de nos sociétaires : Sion Thomas, Cordier François, Cordie, Henri, Pieters, Lefebvre et Maryn Frédéric réussissaient, au milieu des plus grands dangers, à sauver un marin qui s’était jeté à la mer, trois autres hommes qui, s’étant emparés de deux bouées de sauvetage, s’en allaient en dérive, et, enfin le canot, monté encore par treize naufragés. A peine Ficquet terminait-il ce périlleux sauvetage de dix-sept hommes, que le canot des naufragés était enlevé par une lame et que, d’un autre côté, la mâture du navire tombait le long de la JOSEPHINE et le PRIDE OF THE GANGE était complètement englouti. L’ouragan était tellement violent, pendant le temps relativement court employé à accomplir ce beau sauvetage, qu’un navire de 600 à 700 tonneaux se brisait à petite distance et disparaissait complètement. Encore le lendemain, avec sa même corvette et son même équipage, à peine remis des fatigues de la veille, Ficquet sauvait les sept hommes de la goélette EMMANUEL qu’il parvenait à rentrer sans grosses avaries à Ostende. Le 8 octobre 1869, Ficquet recevait du ministre de la marine et des colonies la médaille de 1ère classe en or, et la Société humaine de Dunkerque lui remettait, aussi une médaille d’or avec inscription commémorative, en récompense de son sang-froid, de son audace et de l’habileté de ses manœuvres en septembre. Une médaille d’or lui était également remise à ce même moment par le gouvernement anglais.La même année, le 11 novembre, nous retrouvons encore Ficquet dans l’équipage du bateau pilote, commandé par Delugny, qui avait remorqué le bateau de sauvetage allant au secours de l’EMILE, brick en perdition à l’est de Dunkerque, et qui faillit se défoncer et se perdre sur la barre en revenant au port. Le 18 décembre, le canot de la corvette dont Ficquet est le patron va encore sauver les neufs hommes de l’équipage d’un trois-mâts allemand qui était à la côte dans l’est du port et était en sérieux danger.Pour ce fait, notre brave sauveteur devait recevoir, le 12 octobre 1874, l’ordre de la Couronne de 4e classe. Le 8 janvier 1870, le bateau à vapeur du Pilotage, conduit par Delugny, sauvait, dans les circonstances les plus périlleuses, les marins de la goélette Phénix. Ficquet avait tenu à honneur de faire ce jour-là partie de l’équipage du remorqueur, et je suis heureux de retrouver son nom parmi les héros, l’expression n’est pas trop forte, qui prirent part à cette sortie que je ne puis qu’indiquer aujourd’hui. Le 20 avril 1870, le chef-pilote Ficquet recevait un témoignage officiel de satisfaction du ministre amiral Rigault de Genouilly, pour sa coopération au sauvetage des équipages de l’EMILE et du PHENIX. En 1870, pendant la guerre, un canot monté par des hommes et des femmes, sombre en revenant de vendre des provisions à bord d’une frégate alors mouillée sur rade. Ficquet, avec sa corvette, opère le sauvetage de ces infortunés. Le 30 septembre 1871, il sauvait encore les quatre hommes de l’allège SPECULANT, qui, surprise par une bourrasque, avait dû quitter le navire qu’elle déchargeait en rade, et venir mouiller en pleine côte, où elle courait risque de se perdre à la marée montante. A cette occasion, M. le viceamiral Pothuau, ministre de la marine, lui adressait, le 18 avril 1872, un témoignage de satisfaction. Le 13 mai 1872, par une habile manœuvre, il devait encore donner un secours efficace à un canot de pêche aux crevettes qui, par une forte brise du N.-E., avait été « souventé » et cherchait vainement à se relever en forçant la toile, pour gagner l’entrée du port. Le 28 mai 1872 devait être un jour de bien grand bonheur pour notre brave et digne sauveteur. Sur la proposition du ministre de la marine et des colonies, M. le président de la République signait le décret lui conférant la croix de chevalier de la Légion d’Honneur. Oui, cher Ficquet, vous pouvez être fier de cette haute distinction, récompense bien méritée d’une longue vie d’abnégation et de courage, où vous avez toujours montré les vertus d’un marin de race, l’énergie, le coup d’œil et le sang-froid dans le danger. Messieurs, ce beau vieillard, encore si vigoureux, dont je viens d’essayer de vous rappeler les mérites, a toujours été un modèle de bon citoyen dans la plus large acception du mot. Permettez-moi, avant de finir, de vous signaler une particularité de la vie de Ficquet, laquelle, pour être moins éclatante, n’en est pas moins honorable, et dénote chez cet homme, apprécié hautement pour, sa bravoure, une fermeté et une persistance de volonté bien rares. Mis à bord d’un bateau de pêche dès sa plus tendre enfance, Ficquet n’avait pu recevoir aucune instruction.En 1854, au moment où il arrivait dans les équipages de ligne à Cherbourg, l’instruction élémentaire des marins de l’Etat était encore fort négligée, et on était loin du temps présent, où l’instruction primaire élémentaire fait partie des exercices obligatoires à bord des bâtiments de la République, aussi bien que la manœuvre des voiles, du canon ou du fusil. A quarante-trois ans le matelot du pilotage Ficquet ne savait donc ni lire ni écrire. Malgré sa parfaite connaissance des côtes, il n’aurait pu, faute des premiers éléments d’instruction, se présenter aux examens pour l’emploi d’aspirant pilote ; toute sa carrière, il serait resté simple matelot avec une paye insuffisante pour nourrir sa femme, qui lui avait déjà donné cinq enfants.Il se fit inscrire pour suivre un cours d’adultes, ouvert depuis plusieurs années à Dunkerque. En revenant de son service de mer, il allait résolument, tous les soirs, à l’école, et, grâce à son énergie, il put vite acquérir les connaissances indispensables pour obtenir la position de pilote, but honorable de sa légitime ambition.Il y a deux ans, la Société des sauveteurs du Nord a tenu, brave Ficquet, à vous mettre au nombre de ses membres d’honneur. Vos camarades vous ont unanimement désigné pour porter, devant eux, dans nos réunions officielles, l’étendard des sauveteurs de l’arrondissement de Dunkerque ; et, je vous le dis en toute sincérité, ils ont fait le meilleur des choix, car ils savent que vous n’avez jamais manqué, un seul jour, à la devise qui brille sur votre poitrine constellée de médailles : Honneur et Patrie. NDLR Il y a une incohérence dans ce discours. En effet, on le dit matelot pilote à 43 ans, or, en 1855 (Agé de  39 ans) il est déjà aspirant pilote. Je pense qu’il a commencé à apprendre à lire et écrire en 1843 et non pas à 43 ans"
+        },
+        "Decorations": [
+            {
+                "Date": "1872-05-29",
+                "Nom": "Chevalier de la Légion d’Honneur Ministre de la Marine  (Dossier LH/969/60)"
+            },
+            {
+                "Date": "1874-10-12",
+                "Nom": "Ordre de la couronne 4°classe Etat allemand pour le sauvetage du 18/12/1869"
+            },
+            {
+                "Date": "1868",
+                "Nom": "Médaille Argent Gouvernement Britannique"
+            },
+            {
+                "Date": "1873",
+                "Nom": "Grand diplôme d’honneur de la Société des Sauveteurs du Nord"
+            }
+        ],
+        "Sources": [
+            "BNF Gallica Société centrale de sauvetage des naufragés 1866 – 1939 Le Grand Echo du Nord de la France – Avis de décés 20 avril 1901 Base Léonore Dossier de la légion d’honneur Généalogie Pascale Blondé"
+        ],
+        "_id": "61a9adaa44c49a31f87038e7",
+        "Nom": "FICQUET",
+        "Prenom": "Pierre Louis",
+        "Titre": "Chef pilote",
+        "Sauveteur": true,
+        "Description": "En quarante-trois, âgé de  27 ans, le matelot du pilotage Ficquet ne savait ni lire ni écrire. Malgré sa parfaite connaissance des côtes, il n’aurait pu, faute des premiers éléments d’instruction, se présenter aux examens pour l’emploi d’aspirant pilote. Toute sa carrière, il serait resté simple matelot avec une paye insuffisante pour nourrir sa femme, qui lui avait déjà donné cinq enfants. Il se fit inscrire pour suivre un cours d’adultes, ouvert depuis plusieurs années à Dunkerque. En revenant de son service de mer, il allait résolument, tous les soirs, à l’école, et, grâce à son énergie, il put vite acquérir les connaissances indispensables pour obtenir la position de pilote, but honorable de sa légitime ambition.",
+        "Nom_lowercase": "ficquet",
+        "Prenom_lowercase": "pierre louis",
+        "createdAt": "2021-12-03T05:39:54.369Z",
+        "updatedAt": "2021-12-03T05:39:54.369Z",
+        "__v": 0
+    },
+    {
+        "EtatCivil": {
+            "DateNaissance": "1877-08-02T00:00:00.000Z",
+            "DateDeces": "1954-06-01T00:00:00.000Z",
+            "LieuNaissance": "Gravelines",
+            "LieuDeces": "Grand-Fort-Philippe"
+        },
+        "Genealogie": {
+            "Descendance": [
+                "Marie Louise",
+                "Madeleine",
+                "Raymond",
+                "Eugénie Marie Josephe"
+            ],
+            "Parent1": "Pierre Louis",
+            "Parent2": "Bernardine Charlotte Wellems",
+            "Conjoint": "Marie Josephe Ernestine Verove"
+        },
+        "Decorations": [
+            {
+                "Nom": "Medaille de bronze",
+                "Date": "1906"
+            },
+            {
+                "Nom": "Medaille dhonneur",
+                "Date": "1932-08-24"
+            }
+        ],
+        "Sources": [
+            "Archives familiales Jean-Marc LEPRETRE",
+            "https://gw.geneanet.org/jmlepretre%22,%22Base de données sayveteurs du dunkerquois"
+        ],
+        "_id": "61a9adc944c49a31f87038e8",
+        "Prenom": "Benoit Jean Louis",
+        "Nom": "Bruneval",
+        "Sauveteur": true,
+        "Nom_lowercase": "bruneval",
+        "Prenom_lowercase": "benoit jean louis",
+        "createdAt": "2021-12-03T05:40:25.498Z",
+        "updatedAt": "2021-12-03T05:40:25.498Z",
+        "__v": 0
+    }
+]
