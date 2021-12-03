@@ -10,14 +10,9 @@
       <i class="bi bi-search" style="color: #162036;"></i>
     </form>
 
-
-    <router-link :to="{ name: 'personne' }">personne</router-link>
-    <router-link to="/personne" class="nav-link">Add</router-link>
     <div v-if="search" class="results">
       <p>Résultats de la recherche : <i>{{search}}</i></p>
-      <SearchResult id="1" nom="Doe" prenom="John" description="Ceci est une description!" />
-      <SearchResult id="2" nom="Doe" description="Ceci est une description!" />
-      <SearchResult id="3" nom="Doe" />
+      <SearchResult v-for="result of results" :key="result._id" :id="result._id" :nom="result.Nom" :prenom="result.Prenom" :titre="result.Titre" :sauveteur="result.Sauveteur" :description="result.Description" />
     </div>
   </div>
 </template>
@@ -34,12 +29,34 @@ export default {
   name: 'Accueil',
   data: function () {
     return {
-      search: search
+      search: search,
+      results: []
     }
   },
   components: {
     Nav,
     SearchResult
+  },
+  async created() {
+    if(search) {
+      fetch("http://192.168.31.54:44719/recherche/" + search)
+      .then(async response => {
+        const data = await response.json();
+
+        // check for error response
+        if (!response.ok) {
+          // get error message from body or default to response statusText
+          const error = (data && data.message) || response.statusText;
+          return Promise.reject(error);
+        }
+
+        this.results = data;
+      })
+      .catch(error => {
+        this.errorMessage = error;
+        console.error("There was an error!", error);
+      });
+    }
   }
 }
 </script>

@@ -1,7 +1,11 @@
 <template>
     <a v-bind:href="'/person/'+ id" class="result">
-        <h3><span v-if="prenom">{{prenom}} </span>{{nom}}</h3>
-        <p v-if="description">{{description}}</p>
+        <h3>
+          <span v-if="prenom">{{prenom}} </span>
+          <span v-if="nom">{{nom}} </span>
+          <small v-if="titre || sauveteur"><span v-if="sauveteur">Sauveteur</span><span v-if="titre">- {{titre}} </span></small>
+        </h3>
+        <p >{{description}}</p>
     </a>
 </template>
 
@@ -20,6 +24,14 @@ export default {
       default: ""
     },
     description: {
+      type: String,
+      default: ""
+    },
+    titre: {
+      type: String,
+      default: ""
+    },
+    sauveteur: {
       type: String,
       default: ""
     }
@@ -47,6 +59,10 @@ export default {
   }
   .result * {
     margin: .3em;
+  }
+  small {
+    font-size: .8em;
+    color: #D7BE27;
   }
 
   .result:hover {
