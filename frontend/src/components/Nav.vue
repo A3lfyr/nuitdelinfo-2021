@@ -9,7 +9,7 @@
         <i class="bi bi-plus-lg"></i>
         <router-link to="/">Nouveau</router-link>
       </div>
-      <div class="navItem">
+      <a class="navItem" href="https://github.com/A3lfyr/nuitdelinfo-2021" target="_blank">
         <i class="bi bi-journal-bookmark"></i>
         <router-link to="/docu">Documentation</router-link>
 
@@ -47,6 +47,10 @@ export default {
   height: 100%;
   margin: auto;
   padding: .5em 0;
+}
+.navItem {
+  text-decoration: none;
+  color: #eaebed;
 }
 
 .right {
