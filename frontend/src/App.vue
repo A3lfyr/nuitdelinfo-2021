@@ -1,15 +1,15 @@
 <template>
-  <Accueil />
+  <router-view></router-view>
 </template>
 
 <script>
 require('./assets/style/style.css');
-import Accueil from './components/Accueil.vue'
+//import Accueil from './components/Accueil.vue'
 
 export default {
   name: 'App',
   components: {
-    Accueil
+
   }
 }
 </script>

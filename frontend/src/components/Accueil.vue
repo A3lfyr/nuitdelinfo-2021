@@ -12,16 +12,17 @@
 
     <div v-if="search" class="results">
       <p>Résultats de la recherche : <i>{{search}}</i></p>
-      <SearchResult v-for="result of results" :key="result._id" :id="result._id" :nom="result.Nom" :prenom="result.Prenom" :titre="result.Titre" :sauveteur="result.Sauveteur" :description="result.Description" />
+        <SearchResult v-for="result of results" :key="result._id" :id="result._id" :nom="result.Nom" :prenom="result.Prenom" :titre="result.Titre" :sauveteur="result.Sauveteur" :description="result.Description" />
+        <strong v-if="results.length < 1">Aucun résultat</strong>
     </div>
   </div>
 </template>
 
 <script>
-import Nav from '../components/Nav.vue'
+import Nav from './NavHome.vue'
 import SearchResult from '../components/SearchResult.vue'
 
-let uri = window.location.search.substring(1); 
+let uri = window.location.search.substring(1);
 let params = new URLSearchParams(uri);
 var search = params.get("search");
 
@@ -39,7 +40,7 @@ export default {
   },
   async created() {
     if(search) {
-      fetch("http://192.168.31.54:44719/recherche/" + search)
+      fetch("http://reiter.tf:44719/recherche/" + search)
       .then(async response => {
         const data = await response.json();
 
@@ -75,18 +76,18 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 1px; /* Solve a issue with a blue band in the top of the screen :3 */ 
+    padding-top: 1px; /* Solve a issue with a blue band in the top of the screen :3 */
     padding-bottom: 6%;
   }
   h1 {
-    margin-top: 6%; 
-    font-family: 'Poppins', sans-serif; 
+    margin-top: 6%;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-bottom: 0;
     font-size: 3.5em;
   }
   h2 {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #D7BE27;
     margin-top: -.5em;
@@ -94,7 +95,7 @@ export default {
   }
   .searchBar {
     background-color: #eaebed;
-    border-radius: 6px;  
+    border-radius: 6px;
     max-width: 60%;
     height: 2em;
     top: -1em;
@@ -114,7 +115,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     background-color: #eaebed;
-    border-radius: 6px;  
+    border-radius: 6px;
     max-width: 50%;
     height: 3em;
     padding : 0 1em;
