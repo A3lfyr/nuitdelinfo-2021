@@ -3,13 +3,16 @@
     <div class="header">
       <Nav />
       <h1>WikiSafe</h1>
-      <h2>Ceci est un sous-titre</h2>
+      <h2>Outil de recherche des Sauveteurs en Mer</h2>
     </div>
     <form class="searchContainer" method="GET" action="/">
       <input name="search" type="text" :value="search" placeholder="Rechercher une personne, un naufrage, etc.." >
       <i class="bi bi-search" style="color: #162036;"></i>
     </form>
 
+
+    <router-link :to="{ name: 'personne' }">personne</router-link>
+    <router-link to="/personne" class="nav-link">Add</router-link>
     <div v-if="search" class="results">
       <p>Résultats de la recherche : <i>{{search}}</i></p>
       <SearchResult id="1" nom="Doe" prenom="John" description="Ceci est une description!" />
