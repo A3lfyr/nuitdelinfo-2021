@@ -1,27 +1,33 @@
 <template>
-  <div class="navContainer">
-    <div class="left">
-      <router-link to="/"  class="navItem">
-        <i class="bi bi-house"></i>
-        Accueil
-      </router-link>
-      <router-link to="/" class="navItem">
-        <i class="bi bi-plus-lg"></i>
-        Nouveau
-      </router-link>
-      <a class="navItem" href="https://github.com/A3lfyr/nuitdelinfo-2021" target="_blank">
-        <i class="bi bi-journal-bookmark"></i>
-        Documentation
-      </a>
-    </div>
-    <div class="right">
-      <router-link to="/connexion" class="navItem">
-        Connexion
-        <i class="bi bi-person"></i>
-      </router-link>
-      <div class="navItem">
-        <img src="../assets/img/flags/FR.png" alt="">
-      </div>
+  <div class="container">
+    <div class="navContainer">
+        <div class="left">
+        <router-link to="/"  class="navItem">
+            <i class="bi bi-house"></i>
+            Accueil
+        </router-link>
+        <router-link to="/" class="navItem">
+            <i class="bi bi-plus-lg"></i>
+            Nouveau
+        </router-link>
+        <a class="navItem" href="https://github.com/A3lfyr/nuitdelinfo-2021" target="_blank">
+            <i class="bi bi-journal-bookmark"></i>
+            Documentation
+        </a>
+        </div>
+        <div class="right">
+        <router-link to="/?search=" class="navItem">
+            Rechercher
+            <i class="bi bi-search"></i>
+        </router-link>
+        <router-link to="/connexion" class="navItem">
+            Connexion
+            <i class="bi bi-person"></i>
+        </router-link>
+        <div class="navItem">
+            <img src="../assets/img/flags/FR.png" alt="">
+        </div>
+        </div>
     </div>
   </div>
 
@@ -36,6 +42,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.container{
+  background-color: #EAEBED;
+  padding: .5em;
+}
+
 .navContainer {
   display: flex;
   flex-direction: row;
@@ -49,7 +60,7 @@ export default {
 }
 .navItem {
   text-decoration: none;
-  color: #eaebed;
+  color: #162036;
 }
 
 .right {
