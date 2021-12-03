@@ -5,7 +5,7 @@
           <span v-if="nom">{{nom}} </span>
           <small v-if="titre || sauveteur"><span v-if="sauveteur">Sauveteur</span><span v-if="titre">- {{titre}} </span></small>
         </h3>
-        <p >{{description}}</p>
+        <p>{{description}}</p>
     </a>
 </template>
 
