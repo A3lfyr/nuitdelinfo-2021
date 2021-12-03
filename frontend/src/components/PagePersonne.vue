@@ -1,4 +1,7 @@
 <template>
+<div>
+  
+  <Nav />
 <div id="flex_cont">
   <CardPersonne id="card" :nom="personne.Nom" :prenom="personne.Prenom" :description="personne.Description" :role="personne.Titre" :photo="personne.Photo" />
   <div id="sous_flex">
@@ -8,17 +11,20 @@
   <p v-if="personne.Temoignage != null"> {{personne.Temoignage}} </p>
 </div>
 </div>
+</div>
 </template>
 
 <script>
 import CardPersonne from '../components/CardPersonne.vue'
+import Nav from '../components/Nav.vue'
 
 //var id ='61a9a79744c49a31f87038e6';
 
 export default {
   name: 'PagePersonne',
   components:{
-    CardPersonne
+    CardPersonne,
+    Nav
   },
   data:function(){
     return{
