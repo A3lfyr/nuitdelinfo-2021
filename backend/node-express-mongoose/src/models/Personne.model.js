@@ -47,6 +47,9 @@ const personneSchema = new mongoose.Schema({
         DateMariage: {
             type: Date
         },
+        LieuMariage: {
+            type: String
+        },
         Conjoint: {
             type: String
         },
@@ -55,15 +58,7 @@ const personneSchema = new mongoose.Schema({
         }
     },
     Decorations: {
-        Date: {
-            type: Date
-        },
-        Nom: {
-            type: String
-        },
-        SauvetageID: {
-            type: ObjectId
-        }
+        type: Array
     },
     Temoignage: {
         Date: {
