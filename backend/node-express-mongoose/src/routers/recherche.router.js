@@ -15,18 +15,22 @@ router.use(cors())
  * SAUVETEUR
  */
 router.get('/recherche/:search', (req, res) => {
-  let arraySearch = req.params.search.split(' ')
-  for (let index = 0; index < arraySearch.length; index++) {
-    let array = arraySearch[index]
-    array = array.toLowerCase()
-    arraySearch[index] = array
+  search = null;
+  if(search) {
+    console.log("Pourquoi search est pas null ??? :o")
   }
-  console.log(arraySearch)
+  let aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarraySearch = req.params.search.split(' ')
+  for (let aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa = 0; aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa < aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarraySearch.length; aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa++) {
+    let aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarray = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarraySearch[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarray = pasUpperCase(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarray);
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarraySearch[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa] = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarray
+  }
+  console.log(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarraySearch)
   Personne.find(
     {
       $or:[
-        {Nom_lowercase: {$in: arraySearch}},
-        {Prenom_lowercase: {$in: arraySearch}}
+        {Nom_lowercase: {$in: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarraySearch}},
+        {Prenom_lowercase: {$in: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarraySearch}}
       ]
     },
     {
@@ -39,5 +43,9 @@ router.get('/recherche/:search', (req, res) => {
       .then(personnes => res.status(200).json(personnes))
       .catch(error => res.status(404).json({ error }));
 });
+
+function pasUpperCase(strrrrr){
+  return strrrrr.toLowerCase()
+}
 
 module.exports = router
