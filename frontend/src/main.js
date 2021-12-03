@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import * as VueRouter from 'vue-router'
 import Accueil from './components/Accueil.vue'
-import PageSauveteur from './components/PageSauveteur.vue'
+import PagePersonne from './components/PagePersonne.vue'
 import PageSauvetage from './components/PageSauvetage.vue'
 const router = VueRouter.createRouter({
 history: VueRouter.createWebHistory(),
@@ -15,7 +15,7 @@ routes: [
     {
       path:'/personne/:id',
       name:'personne',
-      component: PageSauveteur
+      component: PagePersonne
     },
     {
       path:'/sauvetage/:id',

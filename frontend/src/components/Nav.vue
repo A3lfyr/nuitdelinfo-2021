@@ -1,25 +1,24 @@
 <template>
   <div class="navContainer">
     <div class="left">
-      <div class="navItem">
+      <router-link to="/"  class="navItem">
         <i class="bi bi-house"></i>
-        <router-link to="/" >Accueil</router-link>
-      </div>
-      <div class="navItem">
+        Accueil
+      </router-link>
+      <router-link to="/" class="navItem">
         <i class="bi bi-plus-lg"></i>
-        <router-link to="/">Nouveau</router-link>
-      </div>
+        Nouveau
+      </router-link>
       <a class="navItem" href="https://github.com/A3lfyr/nuitdelinfo-2021" target="_blank">
         <i class="bi bi-journal-bookmark"></i>
-        <router-link to="/docu">Documentation</router-link>
-
-      </div>
+        Documentation
+      </a>
     </div>
     <div class="right">
-      <div class="navItem">
-        <router-link to="/connexion">Connexion</router-link>
+      <router-link to="/connexion" class="navItem">
+        Connexion
         <i class="bi bi-person"></i>
-      </div>
+      </router-link>
       <div class="navItem">
         <img src="../assets/img/flags/FR.png" alt="">
       </div>
