@@ -28,7 +28,7 @@ export default {
   },
   async created() {
     var id = this.$route.params.id;
-      fetch("http://192.168.31.54:44719/personne/" + id)
+      fetch("http://reiter.tf:44719/personne/" + id)
       .then(async response => {
         const data = await response.json();
 
