@@ -1,0 +1,56 @@
+Sauvetage
+--
+SauvetageID PK int 
+PatronID int FK >- Personne.PersonneID
+SousPatronID int FK >- Personne.PersonneID
+Armement tabint FK >- Personne.PersonneID
+NaufragesID tabint FK >- Personne.PersonneID
+SauvetaursDecedesID tabint FK >- Personne.PersonneID
+NaufragesDecedesID tabint FK >- Personne.PersonneID
+Localisation string
+Date date
+DepartSauveteurs string
+Description string
+Temoignages tabint FK >- Temoignage.TemoignageID
+Sources tabstring
+
+Personne
+--
+PersonneID PK int
+Nom string
+Prenom string
+Sauveteur boolean
+Titre string
+EtatCivilID int FK >- EtatCivil.EtatCivilID
+Photo string
+GenealogieID int FK >- Genealogie.GenealogieID
+Decorations tabint FK >- Decoration.DecorationID
+Temoignage tabint FK >- Temoignage.TemoignageID
+Sources tabstring
+
+Temoignage
+--
+TemoignageID PK int
+Date date
+Text string
+
+EtatCivil
+--
+EtatCivilID PK int
+DateNaissance date
+DateDeces date
+
+Decoration
+--
+DecorationID PK int
+Date date
+Nom string
+SauvetageID int
+
+Genealogie
+--
+GenealogieID PK int
+Parent1 string
+Parent2 string
+DateMariage date
+Descendance 
