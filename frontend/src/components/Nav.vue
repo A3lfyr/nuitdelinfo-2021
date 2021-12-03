@@ -1,5 +1,5 @@
 <template>
-
+  <p>This is the Nav component.</p>
 </template>
 
 <script>
