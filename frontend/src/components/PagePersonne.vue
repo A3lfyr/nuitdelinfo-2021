@@ -1,11 +1,11 @@
 <template>
-
+<p>PagePersonne ! </p>
 </template>
 
 <script>
 
 export default {
-  name: 'PageSauveteur',
+  name: 'PagePersonne',
 }
 </script>
 
