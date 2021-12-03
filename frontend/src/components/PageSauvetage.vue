@@ -1,11 +1,11 @@
 <template>
-<p> Page Sauveteur </p>
+<p> Sauvetage </p>
 </template>
 
 <script>
 
 export default {
-  name: 'PageSauveteur',
+  name: 'PageSauvetage',
 }
 </script>
 

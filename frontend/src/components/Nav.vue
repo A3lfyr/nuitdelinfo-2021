@@ -3,20 +3,21 @@
     <div class="left">
       <div class="navItem">
         <i class="bi bi-house"></i>
-        Accueil
+        <router-link to="/" >Accueil</router-link>
       </div>
       <div class="navItem">
         <i class="bi bi-plus-lg"></i>
-        Nouveau
+        <router-link to="/">Nouveau</router-link>
       </div>
       <div class="navItem">
         <i class="bi bi-journal-bookmark"></i>
-        Documentation
+        <router-link to="/docu">Documentation</router-link>
+
       </div>
     </div>
     <div class="right">
       <div class="navItem">
-        Connexion
+        <router-link to="/connexion">Connexion</router-link>
         <i class="bi bi-person"></i>
       </div>
       <div class="navItem">
@@ -24,6 +25,7 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
