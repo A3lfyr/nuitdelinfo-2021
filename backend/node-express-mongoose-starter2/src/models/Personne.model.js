@@ -53,6 +53,9 @@ const personneSchema = new mongoose.Schema({
             type: ObjectId
         }
     },
+    Description: {
+        type: String
+    },
     Sources: {
         type: Array
     }
