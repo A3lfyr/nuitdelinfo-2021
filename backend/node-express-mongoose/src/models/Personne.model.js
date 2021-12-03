@@ -24,6 +24,12 @@ const personneSchema = new mongoose.Schema({
         DateNaissance: {
             type: Date
         },
+        LieuNaissance: {
+            type: String
+        },
+        LieuDeces: {
+            type: String
+        },
         DateDeces: {
             type: Date
         }
@@ -46,6 +52,17 @@ const personneSchema = new mongoose.Schema({
         },
         Descendance: {
             type: Array
+        }
+    },
+    Decorations: {
+        Date: {
+            type: Date
+        },
+        Nom: {
+            type: String
+        },
+        SauvetageID: {
+            type: ObjectId
         }
     },
     Temoignage: {
