@@ -8,6 +8,12 @@ const personneSchema = new mongoose.Schema({
     Prenom: {
         type: String
     },
+    Nom_lowercase: {
+        type: String
+    },
+    Prenom_lowercase: {
+        type: String
+    },
     Titre: {
         type: String
     },
