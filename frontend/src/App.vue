@@ -1,14 +1,15 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Accueil />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+require('./assets/style/style.css');
+import Accueil from './components/Accueil.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Accueil
   }
 }
 </script>
@@ -18,8 +19,5 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
