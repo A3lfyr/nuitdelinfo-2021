@@ -12,7 +12,12 @@
 
     <div v-if="search" class="results">
       <p>Résultats de la recherche : <i>{{search}}</i></p>
-      <SearchResult v-for="result of results" :key="result._id" :id="result._id" :nom="result.Nom" :prenom="result.Prenom" :titre="result.Titre" :sauveteur="result.Sauveteur" :description="result.Description" />
+      <div v-if="results.length > 0">
+        <SearchResult v-for="result of results" :key="result._id" :id="result._id" :nom="result.Nom" :prenom="result.Prenom" :titre="result.Titre" :sauveteur="result.Sauveteur" :description="result.Description" />
+      </div>
+      <div v-else>
+        <strong>Aucun résultat</strong>
+      </div>
     </div>
   </div>
 </template>

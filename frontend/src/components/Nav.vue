@@ -9,10 +9,10 @@
         <i class="bi bi-plus-lg"></i>
         Nouveau
       </div>
-      <div class="navItem">
+      <a class="navItem" href="https://github.com/A3lfyr/nuitdelinfo-2021" target="_blank">
         <i class="bi bi-journal-bookmark"></i>
         Documentation
-      </div>
+      </a>
     </div>
     <div class="right">
       <div class="navItem">
@@ -45,6 +45,10 @@ export default {
   height: 100%;
   margin: auto;
   padding: .5em 0;
+}
+.navItem {
+  text-decoration: none;
+  color: #eaebed;
 }
 
 .right {
