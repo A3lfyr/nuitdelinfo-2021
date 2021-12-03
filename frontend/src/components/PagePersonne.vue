@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
 <div id="flex_cont">
   <CardPersonne id="card" :nom="personne.Nom" :prenom="personne.Prenom" :description="personne.Description" :role="personne.Titre" :photo="personne.Photo" />
   <div id="sous_flex">
@@ -49,19 +48,6 @@ export default {
       });
   }
 
-=======
-<Nav />
-</template>
-
-<script>
-import Nav from '../components/Nav.vue'
-
-export default {
-  name: 'PagePersonne',
-  components: {
-    Nav
-  }
->>>>>>> 2ab47ec82f7d5f187b8fb82f6de50b5c7cee4850
 }
 </script>
 
