@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import Nav from '../components/Nav.vue'
+import Nav from './NavHome.vue'
 import SearchResult from '../components/SearchResult.vue'
 
 let uri = window.location.search.substring(1); 
