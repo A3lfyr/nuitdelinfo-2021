@@ -5,7 +5,6 @@ const Personne = require('../models/Personne.model')
 // Create user / Signup
 
 router.get('/personne/:id', (req, res) => {
-    console.log(req.params.id)
     Personne.findOne({ _id: req.params.id })
         .then(personne => res.status(200).json(personne))
         .catch(error => res.status(404).json({ error }));
