@@ -5,7 +5,7 @@
 <script>
 
 export default {
-  name: 'PageSauveteur',
+  name: 'PagePersonne',
 }
 </script>
 
