@@ -1,8 +1,11 @@
 const express = require('express')
 const router = new express.Router()
 const Sauvetage = require('../models/Sauvetage.model')
+const cors = require('cors')
 
-// Create user / Signup
+router.options('*', cors())
+router.use(cors())
+
 router.get('/sauvetage/:id', (req, res) => {
     Sauvetage.findOne({ _id: req.params.id })
         .then(sauvetage => res.status(200).json(sauvetage))
