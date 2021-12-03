@@ -5,20 +5,38 @@
       <h1>WikiSafe</h1>
       <h2>Ceci est un sous-titre</h2>
     </div>
-    <div class="searchContainer">
-      <input type="text" placeholder="Rechercher une personne, un naufrage, etc..">
+    <form class="searchContainer" method="GET" action="/">
+      <input name="search" type="text" :value="search" placeholder="Rechercher une personne, un naufrage, etc.." >
       <i class="bi bi-search" style="color: #162036;"></i>
+    </form>
+
+    <div v-if="search" class="results">
+      <p>Résultats de la recherche : <i>{{search}}</i></p>
+      <SearchResult id="1" nom="Doe" prenom="John" description="Ceci est une description!" />
+      <SearchResult id="2" nom="Doe" description="Ceci est une description!" />
+      <SearchResult id="3" nom="Doe" />
     </div>
   </div>
 </template>
 
 <script>
 import Nav from '../components/Nav.vue'
+import SearchResult from '../components/SearchResult.vue'
+
+let uri = window.location.search.substring(1); 
+let params = new URLSearchParams(uri);
+var search = params.get("search");
 
 export default {
   name: 'Accueil',
+  data: function () {
+    return {
+      search: search
+    }
+  },
   components: {
     Nav,
+    SearchResult
   }
 }
 </script>
@@ -93,5 +111,15 @@ export default {
     font-size: 1em;
     height: 1.5em;
     margin: .15em;
+  }
+  .results {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .6em;
+    margin-top: 3em;
   }
 </style>
